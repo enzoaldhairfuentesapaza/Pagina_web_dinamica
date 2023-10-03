@@ -104,12 +104,12 @@
                 <p>Español: Nativo</p>
                 <p>Inglés: <?php echo $nivelIngles ?></p>
                 <p><?php for ($i = 0; $i < count($idiomas); $i++) {
-                echo $idiomas[$i] . "\n"; } ?></p>
+                echo $idiomas[$i] . "<br>\n"; } ?></p>
 
             <h2>aptitudes</h2>
                 <ul class="list">
                 <li><?php for ($i = 0; $i < count($aptitudes_habilidades); $i++) {
-                echo $aptitudes_habilidades[$i] . "\n"; } ?></li>
+                echo $aptitudes_habilidades[$i] . "<br>\n"; } ?></li>
 
                 </ul>
             <h2>habilidades</h2>
@@ -132,14 +132,14 @@
                 </div>
                 <ul class="list2">
                     <li> <?php  for ($i = 0; $i < count($trabajos); $i++){
-                            echo $trabajos[$i] . " , " . $empresas[$i];}?> 
+                            echo $trabajos[$i] . " , " . $empresas[$i] . "<br>\n";}?> 
                     </li>
                 </ul>
 
             <h2>Formacion</h2>
                 <div class="exp-lab">
                     <h3> <?php  for ($i = 0; $i < count($titulos); $i++){
-                            echo $titulos[$i] . " , " . $instituciones[$i];}?> 
+                            echo $titulos[$i] . " , " . $instituciones[$i] . "<br>\n";}?> 
                     </h3>
                 </div>
         </div>
